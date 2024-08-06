@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title> 
-    <script src="main.js" defer ></script>
-</head>
-<body> 
-
-    <section class="hero-section"> 
-        <article class="hero-banner">
-            <img id="hero-image" src="https://bbdsoftware.com/wp-content/uploads/logo2.svg" />
-            <h1>Immersion Day</h1>
-         </article>
-    </section> 
-
-    <section class="para" >
-            <p> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias esse amet numquam ipsum ratione laborum blanditiis, delectus consectetur! Ad, quam quisquam? Aperiam ducimus a ab quisquam esse, quia officia.
-            </p>
-    </section> 
-
-    <section class="main-form" onsubmit=""> 
-        <form id="form"> 
-            <article class="names"> 
-                <input id="fname" type="text" name="fname" placeholder="First name *" required /> 
-                <input id="lname" type="text" name="lname" placeholder="Last name" required /> 
-             </article>  
-             <input type="email" id="email" placeholder="email" name="ëmail" />   
-             <br />
-             <input type="tel" placeholder="cellphone" name="cellphone" id="cellphone" />
-             <br />
-            <button type="submit">
-                send
-            </button>
-        </form>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/index.css" />
+    <title>BBD Immersion Day</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="hero-section">
+      <article class="hero-banner">
+        <img
+          id="hero-image"
+          src="https://bbdsoftware.com/wp-content/uploads/logo2.svg"
+        />
+        <h1>Immersion Day</h1>
+      </article>
     </section>
-    
-</body> 
 
+    <section class="para">
+      <p>
+        BBD Software hosts an annual Immersion Day, a unique opportunity for
+        students and aspiring developers to gain an insider’s view of the
+        company. This event offers participants a chance to engage with our team
+        of experienced developers, learn about the innovative projects we're
+        working on, and explore the vibrant culture at BBD. Through interactive
+        sessions, hands-on workshops, and insightful discussions, attendees will
+        get a comprehensive understanding of what it's like to work in a dynamic
+        software development environment. Join us for a day of learning,
+        networking, and inspiration as we open our doors to the next generation
+        of tech talent.
+      </p>
+    </section>
+
+    <section class="main-form" onsubmit="">
+      <form id="form">
+        <article class="names">
+          <input
+            id="fname"
+            type="text"
+            name="fname"
+            placeholder="First name *"
+            required
+          />
+          <input
+            id="lname"
+            type="text"
+            name="lname"
+            placeholder="Last name"
+            required
+          />
+        </article>
+        <input type="email" id="email" placeholder="email" name="ëmail" />
+        <br />
+        <input
+          type="tel"
+          placeholder="cellphone"
+          name="cellphone"
+          id="cellphone"
+        />
+        <br />
+        <button type="submit">RSVP</button>
+      </form>
+    </section>
+  </body>
 </html>
