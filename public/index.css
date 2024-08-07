@@ -111,6 +111,7 @@ button:focus {
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .successful-rsvp img {
@@ -132,6 +133,18 @@ button:focus {
 
 .successful-rsvp a:hover {
   text-decoration: underline;
+}
+
+.fa-solid {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fa-solid:hover{
+  color: #007bff;
 }
 
 footer {
