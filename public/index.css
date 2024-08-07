@@ -161,3 +161,14 @@ footer .social-icons a:hover {
     cursor: pointer;
     color: red;
 }
+
+@media (max-width: 700px) {
+    .content-section {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
