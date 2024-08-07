@@ -95,3 +95,27 @@ button:focus {
     width: 80%;
 } 
 
+.successful-rsvp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.successful-rsvp a {
+    text-decoration: none;
+    margin-top: 7px;
+    width: 90%;
+    padding: 15px;
+    background-color: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.successful-rsvp a:hover {
+    background-color: #5a67d8;
+}
+
