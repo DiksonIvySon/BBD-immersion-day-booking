@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="./public/index.css" />
     <title>BBD Immersion Day</title>
     <script src="main.js" defer></script>
+    <!--font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="icon"
       href="https://bbdsoftware.com/wp-content/uploads/logo2.svg"
@@ -13,70 +17,109 @@
     />
   </head>
   <body>
-    <section class="hero-section">
-      <article class="hero-banner">
+
+    <header>
+      <div class="header-image">
         <img
-          id="hero-image"
           src="https://bbdsoftware.com/wp-content/uploads/logo2.svg"
         />
-      </article>
-    </section>
+      </div>
+      <!--<div class="header-socials"> -->
+
+      </div>
+    </header>
 
     <main>
-      <section class="para">
-        <h1>Immersion Day</h1>
-        <p>
-          BBD Software hosts an annual Immersion Day, a unique opportunity for
-          students and aspiring developers to gain an insider’s view of the
-          company. This event offers participants a chance to engage with our team
-          of experienced developers, learn about the innovative projects we're
-          working on, and explore the vibrant culture at BBD. Through interactive
-          sessions, hands-on workshops, and insightful discussions, attendees will
-          get a comprehensive understanding of what it's like to work in a dynamic
-          software development environment. Join us for a day of learning,
-          networking, and inspiration as we open our doors to the next generation
-          of tech talent.
-        </p>
-      </section>
-
-      <section class="main-form">
-        <h2>Fill in this form to save your spot</h2>
-        <form id="form">
-          <article class="names">
-            <input
-              id="fname"
-              type="text"
-              name="fname"
-              placeholder="First name *"
-              required
-            />
-            <input
-              id="lname"
-              type="text"
-              name="lname"
-              placeholder="Last name *"
-              required
-            />
-          </article>
-          <input type="email" id="email" placeholder="email *" name="ëmail" />
-          <br />
-          <input
-            type="tel"
-            placeholder="cellphone *"
-            name="cellphone"
-            id="cellphone"
+      <section class="hero-section">
+        <article class="hero-banner">
+          <img
+            id="hero-image"
+            src="https://bbdsoftware.com/wp-content/uploads/logo2.svg"
           />
-          <br />
-          <button type="submit">RSVP</button>
-        </form>
+        </article>
       </section>
 
-      <section class="successful-rsvp main-form" style="display: none;">
-        <h2>RSVP Successful</h2>
-        <img src="public/images/successful.png" alt="success icon">
-        <p>Visit BBD on our main page learn more about us</p>
-        <a href="https://bbdsoftware.com/">Visit BBD</a>
+      <section class="content-section">
+        <section class="para">
+          <h1>Immersion Day</h1>
+          <p>
+            BBD Software hosts an annual Immersion Day, a unique opportunity for
+            students and aspiring developers to gain an insider’s view of the
+            company. This event offers participants a chance to engage with our team
+            of experienced developers, learn about the innovative projects we're
+            working on, and explore the vibrant culture at BBD. Through interactive
+            sessions, hands-on workshops, and insightful discussions, attendees will
+            get a comprehensive understanding of what it's like to work in a dynamic
+            software development environment. Join us for a day of learning,
+            networking, and inspiration as we open our doors to the next generation
+            of tech talent.
+          </p>
+        </section>
+  
+        <section class="main-form">
+          <h2>Fill in this form to save your spot</h2>
+          <form id="form">
+            <article class="names">
+              <input
+                id="fname"
+                type="text"
+                name="fname"
+                placeholder="First name *"
+                required
+              />
+              <input
+                id="lname"
+                type="text"
+                name="lname"
+                placeholder="Last name *"
+                required
+              />
+            </article>
+            <input type="email" id="email" placeholder="email *" name="ëmail" />
+            <br />
+            <input
+              type="tel"
+              placeholder="cellphone *"
+              name="cellphone"
+              id="cellphone"
+            />
+            <br />
+            <button type="submit">RSVP</button>
+          </form>
+        </section>
+  
+        <section class="successful-rsvp main-form" style="display: none;">
+          <h2>RSVP Successful</h2>
+          <img src="public/images/successful.png" alt="success icon">
+          <p>Visit BBD on our main page learn more about us</p>
+          <a href="https://bbdsoftware.com/">Visit BBD</a>
+        </section>
       </section>
     </main>
+
+    <footer>
+      <div class="info">
+        <a href="https://github.com/DiksonIvySon/BBD-immersion-day-booking">View Documentation</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/BBDsoftwaredevelopment/">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/bbdsoftware/?hl=en">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/bbd/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/bbdsoftware?lang=en">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/user/BBDSoftware">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </footer>
+
+    
   </body>
 </html>
