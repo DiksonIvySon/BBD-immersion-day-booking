@@ -1,6 +1,7 @@
 let submit = document.querySelector('button') 
 let json_data;  
-let data  
+let data ; 
+const { saveFile} = require('./server')
 
 let getData = () => {
     console.log(`json ${json_data}`)
@@ -23,9 +24,10 @@ data = window.addEventListener('click',function(e){
     json_data = JSON.stringify(data)   
 
     getData()
+    saveFile(json_data)
+
 
 }) 
 
 
 console.log(`jason ${json_data}`) 
-
