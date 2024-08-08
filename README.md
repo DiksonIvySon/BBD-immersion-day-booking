@@ -40,5 +40,5 @@ The website consists of the following files:
 
     1. Dikson Manganyane
     2. Sulaiman Ndlovhu
-    3. Perseveramce Molefe
+    3. Perseverance Molefe
     4. Thabo Mangoma
