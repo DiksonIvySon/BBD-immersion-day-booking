@@ -13,8 +13,8 @@ body header {
 
 header .header-image {
   width: 20px;
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 0px;
+  padding: 10px 5vw;
 }
 
 main {
@@ -22,21 +22,23 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20vh 5vw;
+  padding: 10vh 5vw;
   background-image: linear-gradient(130deg, white 50%, #3498db 50%);
-}
-
-.para {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.content-section {
-  display: flex;
 }
 
 section {
   width: 100%;
   margin: 20px 30px;
+}
+
+.para {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 0px;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-form {
@@ -63,8 +65,7 @@ input {
   outline: none;
 }
 
-input:focus,
-textarea:focus {
+input:focus {
   border-color: #667eea;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
 }
@@ -150,7 +151,7 @@ button:focus {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 20px 5vw;
 }
 
 footer .info a {
