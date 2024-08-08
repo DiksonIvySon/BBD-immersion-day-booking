@@ -2,10 +2,6 @@ let submit = document.querySelector("button");
 let json_data;
 let data;
 
-let getData = () => {
-  console.log(`json ${json_data}`);
-};
-
 const updateDom = () => {
   const formCard = document.querySelector(".main-form");
   const successfulCard = document.querySelector(".successful-rsvp");
@@ -39,8 +35,6 @@ const saveData = () => {
   };
   json_data = JSON.stringify(data);
 
-  getData();
   updateDom();
 };
 
-console.log(`jason ${json_data}`);
