@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "start": "http-server -p 8800"
+    "start": "http-server -p 8800 ."
   },
   "author": "",
   "license": "ISC",
