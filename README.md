@@ -28,13 +28,18 @@ The website consists of the following files:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DiksonIvySon/BBD-immersion-day-booking
    ```
 2. **Navigate To The Repository Dir**
    ```bash
-   cd <project-directory>
+   cd BBD-immersion-day-booking
    ```
-3. **Open `index.html` on your web Browser**
+3. **Start local server**
+    ```bash
+    npm start
+    ```
+4. **Open the live page**:
+    Simply open your browser and go to [http://127.0.0.1:8800](http://127.0.0.1:8800)
 
 ## Developers
 
