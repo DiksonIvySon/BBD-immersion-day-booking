@@ -7,7 +7,21 @@
     "test": "jasmine",
     "start": "http-server -p 8800 ."
   },
-  "author": "",
+  "author": "Dickson Manganye diksonmanganyi179@gmail.com",
+  "collaborators":[
+  {
+  "name": "Sulaiman Ndlovu",
+  "email": "sulaimanndlovu@gmail.com"
+  }, 
+  {
+  "name": "Perseverance Molefe",
+  "email": "<STILL_MISSING_EMAIL_ADDRESS>"
+  }, 
+  {
+  "name": "Thabo Mangoma",
+  "email": "thabo.s.mngoma@gmail.com"
+  }
+  ]
   "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.1",
