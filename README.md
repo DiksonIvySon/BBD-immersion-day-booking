@@ -38,7 +38,7 @@ The website consists of the following files:
 
 ## Developers
 
-    1. Dikson Manganyane
+    1. Dikson Manganye
     2. Sulaiman Ndlovhu
     3. Perseverance Molefe
     4. Thabo Mangoma
